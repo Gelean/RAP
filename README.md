@@ -7,5 +7,5 @@ javac -d . ReverseString.java Palindrome.java Anagram.java
 ## Running
 
 java ReverseString testString
-java Palindrome testset
-java Anagram testString stringTest
+<br>java Palindrome testset
+<br>java Anagram testString stringTest

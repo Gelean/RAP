@@ -11,17 +11,11 @@ public class ReverseString {
     }
 
     public static String reverseString(String stringToReverse) {
-        char[] originalSringCharArray = new char[stringToReverse.length()];
         String reverseString = "";
-
-        /*for (char c: originalSringCharArray) {
-            System.out.println(c);
+        
+        /*for(char c : stringToReverse.toCharArray()) {
+            outString = c + reverseString;
         }*/
-
-        // Copy character by character into array
-        for (int i = 0; i < stringToReverse.length(); i++) {
-            originalSringCharArray[i] = stringToReverse.charAt(i);
-        }
 
         // Build up reversed string character by character
         for (int i = stringToReverse.length() - 1; i >= 0; i--) {
